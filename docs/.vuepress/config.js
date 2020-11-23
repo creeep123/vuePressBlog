@@ -10,13 +10,24 @@ module.exports = {
     },
     themeConfig: {
       nav:[ // 导航栏配置
-        {text: '前端', link: '/accumulate/' },
-        {text: '算法', link: '/algorithm/'},    
+        {text: '前端', link: '/前端面试题/' },
+        {text: '算法', link: '/算法/'},    
+        {text:'JS', link:'/JavaScript浅入浅出/'}
       ],
-      sidebar: [
-        '/',
-        '/guide/'
-    ],
-      sidebarDepth: 2, // 侧边栏显示2级
+      sidebar: {
+        '/JavaScript浅入浅出/':[
+          'JavaScript 中的 this（1）- This 是什么？',
+        ],
+        '/前端面试题/':[
+          ['2020-11-03','2020-11-03 数组去重'],
+          ['2020-11-04','2020-11-04 输入url 后发生了什么？'],
+          ['2020-11-05','2020-11-05 垂直居中的CSS实现'],
+          ['2020-11-06','2020-11-06 cookie'],
+		  ['2020-11-21','2020-11-21 forEach/ for of/ for in']
+        ],
+        '/算法/':[
+        ]
+      },
+      sidebarDepth: 3, // 侧边栏显示3级
     }
   };

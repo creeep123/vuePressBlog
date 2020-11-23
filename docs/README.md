@@ -1,12 +1,16 @@
-### 为什么要使用 this ？ 
-
-this 可以避免显式地传递对象，取而代之的是一种更优雅的方式来隐式地“传递”一个对象引用，通过这种方式来将API设计得更加简洁并且易于复用。
-
-
-
-### 对 this 存在的**误解**
-
-​	**X**		this 指向自身			
-
-​	**X**		this 指向它的作用域
+---
+home: true
+heroImage: 
+actionText: 开始探索 →
+actionLink: /zh/guide/
+features:
+- title: 简洁至上
+  details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
+- title: Vue驱动
+  details: 享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。
+- title: 高性能
+  details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
+footer: MIT Licensed | Copyright © 2020 - dAVID yANG
+---
+# Hello VuePress!
 
